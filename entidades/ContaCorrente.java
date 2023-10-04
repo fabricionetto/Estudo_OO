@@ -30,10 +30,14 @@ public class ContaCorrente extends Conta {
 
 	@Override
 	public String toString() {
-		String n = "Numero Conta= " + this.getNumeroConta()
-		+ "\nTitular= " + this.getTitular() 
-		+ "\nSaldo= " + this.getSaldo();
-		return n;
+		StringBuilder sb = new StringBuilder();
+		sb.append("Numero Conta= ");
+		sb.append( this.getNumeroConta());
+		sb.append( "\nTitular= ");
+		sb.append( this.getTitular());
+		sb.append( "\nSaldo= ");
+		sb.append( this.getSaldo());
+		return sb.toString();
 	}
 	
 }
