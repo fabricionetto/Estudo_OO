@@ -7,7 +7,7 @@ public class Conta {
 	protected Double saldo;
 
 	public Conta() {
-		super();
+		
 	}
 
 	public Conta(Integer numeroConta, String titular, Double saldo) {

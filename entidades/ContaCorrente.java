@@ -31,6 +31,7 @@ public class ContaCorrente extends Conta {
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
+		sb.append("Conta Corrente");
 		sb.append("Numero Conta= ");
 		sb.append( this.getNumeroConta());
 		sb.append( "\nTitular= ");
